@@ -39,12 +39,15 @@ dependencies {
 }
 
 shadowJar {
-    archiveBaseName = "TestApplication"
+    archiveBaseName = "NTClient"
     archiveVersion = ""
-    exclude("module-info.class")
     archiveClassifier.set(wpilibTools.currentPlatform.platformName)
 }
 
 wrapper {
     gradleVersion = '7.5.1'
+}
+
+tasks.withType(JavaCompile) {
+    options.release = 11
 }
