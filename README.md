@@ -1,9 +1,6 @@
 # ChargedUpNTClient
 
 This is a simple Network tables client program for FRC Team 172.
-
-Keys 1-9 correspond to row.
-
-Keys on each row correspond to the row.
+W A S D to move location
 
 Shows a green rectangle for the selected position.
